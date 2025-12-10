@@ -254,6 +254,67 @@ Model Used: Regression models.
 How Data is Fed: ATM withdrawal logs.  
 How Training Works: Labeled with required refill amount.
 
+## Audio 
+1. Speech-to-Text (Siri)
+Business Impact: Enables voice commands, hands-free usage, accessibility features.
+Model Used: Wav2Vec2.0, RNNs, Transformer-based ASR models.
+How Data is Fed: Raw speech → converted into spectrogram/MFCC → fed into model.
+How Training Works: Audio clips paired with human-written transcripts.
+
+2. Wake Word Detection (“Hey Siri”)
+Business Impact: Activates assistant without pressing buttons; saves battery.
+Model Used: Small CNN keyword spotters.
+How Data is Fed: Continuous audio chunks (1 second).
+How Training Works: Clips labeled as wake word vs non-wake word.
+
+3. Call Center Emotion Detection (Amazon Connect Contact Lens)
+Business Impact: Helps companies analyze customer frustration or satisfaction.
+Model Used: CNN + LSTM audio classifiers.
+How Data is Fed: Voice → MFCC features.
+How Training Works: Calls labeled as angry, calm, sad, neutral.
+
+4. Speaker Identification (Alexa)
+Business Impact: Enables voice unlock, personalized responses.
+Model Used: Speaker embedding networks.
+How Data is Fed: User’s voice → MFCC or spectrogram.
+How Training Works: Audio snippets labeled with speaker identities.
+
+5. Noise Suppression (Zoom, Google Meet)
+Business Impact: Removes background noise (fan, keyboard), improving call quality.
+Model Used: CNN noise classifiers.
+How Data is Fed: Audio stream split into frames.
+How Training Works: Labeled “noise” vs “speech” segments.
+
+6. Music Genre Classification (Spotify)
+Business Impact: Improves playlists and music recommendations.
+Model Used: CNN on spectrogram images.
+How Data is Fed: Audio → turned into spectrogram.
+How Training Works: Songs labeled as rock, pop, jazz, classical, etc.
+
+7. Voice-Based Language Identification (Alexa)
+Business Impact: Switching voice assistants automatically to Tamil/Hindi/English.
+Model Used: CNN + RNN hybrids.
+How Data is Fed: Audio → MFCC.
+How Training Works: Clips labeled with language.
+
+8. Baby Cry Monitoring (Baby Monitors)
+Business Impact: Alerts parents intelligently when baby cries.
+Model Used: CNN sound classifiers.
+How Data is Fed: Room audio → spectrogram.
+How Training Works: Labeled “cry”, “laugh”, “noise”.
+
+9. Car Voice Commands (Android Auto)
+Business Impact: Safe hands-free driving.
+Model Used: Speech command recognition models.
+How Data is Fed: Commands → spectrogram.
+How Training Works: Labeled commands like “call”, “navigate home”.
+
+10. Smart Home Audio Event Detection (Alexa)
+Business Impact: Home safety (glass breaking, smoke alarm detection).
+Model Used: CRNN (CNN + RNN).
+How Data is Fed: Continuous microphone audio.
+How Training Works: Audio labeled with event types.
+
 ## Label Studio
 - open-source data labeling tool  
 - used to create training datasets for supervised machine learning   
