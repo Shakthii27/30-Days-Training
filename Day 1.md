@@ -8,6 +8,9 @@ How does Tamil Nadu weatherman predict better than IMD?
 - IMD issues updates every 3 hours, sometimes every 6 hours  
 - Tamil Nadu Weatherman uses RADAR and satellite loops minute-by-minute that tracks storm movement, predicts which area will get rain next 1–2 hours  
 - Updates based on storm behavior
+- Tamil Nadu Weatherman uses publicly available data IMD radar, IMD satelleite image, local rain gauges - all from open platforms
+- Whereas IMD uses special instruments like their own supercomputers, INSAT satellites to gather data
+- Since, TNWM keeps updating min to min, his predictions are more accurate  than IMD
 
 ## 10 practical use cases of supervised learning across each modality -   
 ## Image
