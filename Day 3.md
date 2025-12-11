@@ -38,8 +38,8 @@ Python may reuse freed memory internally and not always return to OS - Python ke
 Swaping - move some inactive RAM pages to the SSD to free real RAM for active apps.  
 Swapout - from RAM to SSD, if RAM getting full or inactive pages  
 Swapin - from SSD to RAM - when an app you previously swapped out becomes active again, S needs that memory immediately  
-Processes: 782 total, 3 running, 779 sleeping, 3390 threads - 782 total processes out of which 3 processes are actively running
-Load Avg: 1.93, 2.05, 2.02 avg CPU load in 1 min, 5 min and 15 mins, at any moment, about 2 tasks were waiting for the CPU  
-Process - a program that is being executed 
-Threads - used when mutiple tasks happen in same program 
+Processes: 782 total, 3 running, 779 sleeping, 3390 threads - 782 total processes out of which 3 processes are actively running  
+Load Avg: 1.93, 2.05, 2.02 avg CPU load in 1 min, 5 min and 15 mins, at any moment, about 2 tasks were waiting for the CPU    
+Process - a program that is being executed    
+Threads - used when mutiple tasks happen in same program  
 
