@@ -32,7 +32,17 @@
 - Battery: 10.27 Watt-Hour battery (old battery)
 - Display: 1920x1080 
 
-## Comparing m2 and m3 processor:
-- It uses more advanced 3nm process technology
-- has 25 billion transistors compared to the M2's 20 billion
-- and a faster CPU clock speed of 4.05 GHz, m2-> 3.49 GHz
+## Comparing m2 and m3 processor:  
+- It uses more advanced 3nm process technology  
+- has 25 billion transistors compared to the M2's 20 billion  
+- and a faster CPU clock speed of 4.05 GHz, m2-> 3.49 GHz  
+
+## SSD Grades   
+- SLC - single level cell - 1 bit per cell  
+- MLC - mutli level cell - 2 bits per cell  
+- TLC - triple level cell - 3 bits per cell  
+- QLC - quad level cell - 4 bits per cell  
+
+More bits = more voltage levels  
+More voltage levels = more checks  
+More checks = slower reads/writes therefore reducing performance  
