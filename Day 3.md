@@ -1,7 +1,7 @@
 ## Read/Write throughput:
-- L1 Cache	~1000–2000 GB/s	= 1000× faster
-- L2 Cache	~500–1000 GB/s	= 500× faster
-- L3 Cache	~100–400 GB/s	= 100× faster
+- L1 Cache	-1000–2000 GB/s	= 1000× faster
+- L2 Cache	-500–1000 GB/s	= 500× faster
+- L3 Cache	0100–400 GB/s	= 100× faster
 - RAM (DDR4)	20–25 GB/s	= 10× faster (double data transfer)  
 - NVMe SSD	2–3 GB/s	baseline (Non-volatile memory express)
 - SATA SSD	0.5 GB/s = 0.6x slower
